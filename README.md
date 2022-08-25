@@ -1,3 +1,4 @@
+[![Continuous Integration](https://github.com/McebisiMK/CrytoCurrencyExchange/actions/workflows/dotnet.yml/badge.svg)](https://github.com/McebisiMK/CrytoCurrencyExchange/actions/workflows/dotnet.yml)
 # Cryto Currency Exchange
 
 Api Project (Api entry point)
