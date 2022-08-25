@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CryptoCurrencyExchange.Data.Migrations
 {
     [DbContext(typeof(CurrencyExchangeRatesDbContext))]
-    [Migration("20220825125516_MyFirstMigration")]
-    partial class MyFirstMigration
+    [Migration("20220825152526_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -59,10 +59,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ABT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ACH")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -75,10 +71,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AERGO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("AFN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -87,23 +79,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AIOZ")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ALCX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ALEPH")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ALGO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ALICE")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -131,14 +107,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("APE")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("API3")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ARPA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -155,10 +123,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ATA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ATOM")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -172,10 +136,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("AVAX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("AVT")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -231,19 +191,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("BICO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("BIF")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("BIT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("BLZ")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -260,10 +208,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BOB")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("BOBA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -315,19 +259,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("C98")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("CAD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CDF")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CELR")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -375,19 +311,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("COVAL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("CRC")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CRO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CRPT")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -396,10 +320,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CTSI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CTX")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -423,10 +343,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DAR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("DASH")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -436,14 +352,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DESO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DEXT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DIA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -471,14 +379,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DREP")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DYP")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("DZD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -487,23 +387,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ELA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ENJ")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ENS")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("EOS")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ERN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -535,15 +423,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FIDA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("FIL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FIS")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -555,31 +435,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FLOW")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FORT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("FORTH")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FOX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("FX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GAL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GALA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -595,10 +455,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GFI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("GGP")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -611,15 +467,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GLM")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("GMD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GMT")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -627,23 +475,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GNO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("GNT")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GODS")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("GRT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GST")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -655,19 +491,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GUSD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("GYD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GYEN")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("HIGH")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -676,10 +500,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HNL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("HOPR")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -699,10 +519,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("IDEX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("IDR")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -715,19 +531,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("IMX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("INDEX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("INR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("INV")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -763,10 +567,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("JUP")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("KEEP")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -796,10 +596,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("KRW")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("KSM")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -835,19 +631,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LOKA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("LOOM")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LPT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LQTY")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -887,15 +675,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MATH")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("MATIC")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MCO2")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -903,23 +683,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MDT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MEDIA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("METIS")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("MGA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MINA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -947,31 +711,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MONA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("MOP")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MPL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MTL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("MUR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MUSD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MUSE")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -996,14 +740,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NAD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NCT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NEST")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1051,14 +787,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("OP")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ORCA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ORN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -1103,31 +831,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PLU")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("POLS")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("POLY")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("POND")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("POWR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PRO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PRQ")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1143,10 +847,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("QSP")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("QUICK")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -1159,15 +859,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RARE")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("RARI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("RBN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1199,15 +891,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RNDR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("RON")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ROSE")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1220,10 +904,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RWF")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SAND")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1255,10 +935,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SHPING")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SKL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -1283,10 +959,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SPELL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SRD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -1299,23 +971,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("STG")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("STORJ")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("STX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SUKU")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SUPER")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1327,27 +987,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SWFTC")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SYLO")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SYN")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SZL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("THB")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TIME")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1360,10 +1004,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TND")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TONE")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1415,15 +1055,7 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UNFI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("UNI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UPI")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1459,19 +1091,11 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("VGX")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("VND")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VUV")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("WAMPL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1504,10 +1128,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("XCD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("XCN")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -1592,7 +1212,6 @@ namespace CryptoCurrencyExchange.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("_1INCH")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

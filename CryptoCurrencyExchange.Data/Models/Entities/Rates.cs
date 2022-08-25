@@ -235,7 +235,7 @@ namespace CryptoCurrencyExchange.Data.Models.Entities
         public string ICP { get; set; }
         public string NKN { get; set; }
         public string OGN { get; set; }
-        public string _1INCH { get; set; }
+        public string? _1INCH { get; set; }
         public string USDT { get; set; }
         public string FORTH { get; set; }
         public string CTSI { get; set; }
@@ -298,100 +298,5 @@ namespace CryptoCurrencyExchange.Data.Models.Entities
         public string PERP { get; set; }
         public string RARI { get; set; }
         public string DESO { get; set; }
-        public string API3 { get; set; }
-        public string NCT { get; set; }
-        public string SHPING { get; set; }
-        public string UPI { get; set; }
-        public string CRO { get; set; }
-        public string MTL { get; set; }
-        public string ABT { get; set; }
-        public string AVT { get; set; }
-        public string MDT { get; set; }
-        public string VGX { get; set; }
-        public string ALCX { get; set; }
-        public string COVAL { get; set; }
-        public string FOX { get; set; }
-        public string MUSD { get; set; }
-        public string CELR { get; set; }
-        public string GALA { get; set; }
-        public string POWR { get; set; }
-        public string GYEN { get; set; }
-        public string ALICE { get; set; }
-        public string INV { get; set; }
-        public string LQTY { get; set; }
-        public string PRO { get; set; }
-        public string SPELL { get; set; }
-        public string ENS { get; set; }
-        public string DIA { get; set; }
-        public string BLZ { get; set; }
-        public string CTX { get; set; }
-        public string ERN { get; set; }
-        public string IDEX { get; set; }
-        public string MCO2 { get; set; }
-        public string POLS { get; set; }
-        public string SUPER { get; set; }
-        public string UNFI { get; set; }
-        public string STX { get; set; }
-        public string KSM { get; set; }
-        public string GODS { get; set; }
-        public string IMX { get; set; }
-        public string RBN { get; set; }
-        public string BICO { get; set; }
-        public string GFI { get; set; }
-        public string ATA { get; set; }
-        public string GLM { get; set; }
-        public string MPL { get; set; }
-        public string PLU { get; set; }
-        public string SWFTC { get; set; }
-        public string SAND { get; set; }
-        public string GNO { get; set; }
-        public string FIDA { get; set; }
-        public string ORCA { get; set; }
-        public string CRPT { get; set; }
-        public string QSP { get; set; }
-        public string RNDR { get; set; }
-        public string NEST { get; set; }
-        public string PRQ { get; set; }
-        public string HOPR { get; set; }
-        public string JUP { get; set; }
-        public string MATH { get; set; }
-        public string SYN { get; set; }
-        public string AIOZ { get; set; }
-        public string WAMPL { get; set; }
-        public string AERGO { get; set; }
-        public string INDEX { get; set; }
-        public string TONE { get; set; }
-        public string HIGH { get; set; }
-        public string GUSD { get; set; }
-        public string FLOW { get; set; }
-        public string ROSE { get; set; }
-        public string OP { get; set; }
-        public string APE { get; set; }
-        public string MINA { get; set; }
-        public string MUSE { get; set; }
-        public string SYLO { get; set; }
-        public string DREP { get; set; }
-        public string ELA { get; set; }
-        public string FORT { get; set; }
-        public string ALEPH { get; set; }
-        public string DEXT { get; set; }
-        public string FIS { get; set; }
-        public string BIT { get; set; }
-        public string GMT { get; set; }
-        public string GST { get; set; }
-        public string MEDIA { get; set; }
-        public string C98 { get; set; }
-        public string BOBA { get; set; }
-        public string DAR { get; set; }
-        public string DYP { get; set; }
-        public string GAL { get; set; }
-        public string LOKA { get; set; }
-        public string METIS { get; set; }
-        public string MONA { get; set; }
-        public string POND { get; set; }
-        public string RARE { get; set; }
-        public string STG { get; set; }
-        public string TIME { get; set; }
-        public string XCN { get; set; }
     }
 }
